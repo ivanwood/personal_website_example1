@@ -1,0 +1,183 @@
+/*index section*/
+
+.container{
+    width: 100%;
+    min-height: 110vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin:  0 0 0 0;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.menuicon{
+    width: 70px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    background-color: white;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color: #FF8F1C;
+}
+.linkedinbtn{
+    position: absolute;
+    top: 40 px;
+    right: 8%;
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+}
+.linkedinbtn img{
+    width: 30px;
+    margin-right: 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 90px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.col-2{
+    flex-basis: 30%;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* about paragraph*/
+.about-para{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align:left;
+}
+.col-1 h2{
+    font-size: 54px;
+}
+.col-1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.col-1 p{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+.col-1 p{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.button1{
+    width: 300px;
+    border: 0;
+    padding: 12px 10px;
+    outline: honeydew;
+    color:lightskyblue;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    align-items: center;
+}
+.footer { 
+    flex: 1;
+    text-align: center;
+  }
+
+/* about page*/
+.ab-col1{
+    max-width: 800px;
+    padding-left: 10%;
+    color: #333;
+}
+.ab-col1 h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.profileimg{
+    width: 80%;
+    max-width: 450px;
+    position: relative;
+    z-index: 2;
+}
+.ab-col2{
+text-align: right;
+position: relative;
+}
+.profileimg:hover{
+    transform: translate(-25px, -25px);
+}
+.input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 100px;
+    box-sizing: 250px;
+  }
+  .job-table, th, td{
+        flex-basis: 40%;
+        position: relative;
+        margin-left: 50px;
+      text-align: center;
+      border: 1px solid darkgray;
+      border-radius: 10px;
+  }
+  .table-title{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+  }
+  /* image gallery*/
+  .img-gallery{
+    position: relative;
+    margin-left: 50px;
+  text-align: center;
+
+  }
